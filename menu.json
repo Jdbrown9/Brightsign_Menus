@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-01T16:37:35.034Z",
+  "generatedAt": "2026-04-01T16:39:38.182Z",
   "items": [
     {
       "id": "hot-dog",
       "name": "Hot Dog",
-      "price": "$5.65",
+      "price": "$100",
       "feedPath": "feeds/hot-dog.xml"
     },
     {
