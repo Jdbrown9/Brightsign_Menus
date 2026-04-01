@@ -111,19 +111,6 @@ body {
   font-size: 12px;
 }
 
-.section-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 14px;
-  margin-bottom: 10px;
-}
-
-.section-head > div:first-child p {
-  margin: 4px 0 0;
-  font-size: 13px;
-}
-
 .compact-card {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -214,20 +201,42 @@ input:focus {
   cursor: pointer;
 }
 
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.menu-title {
+  flex: 0 1 auto;
+}
+
+.menu-title h2 {
+  margin: 0 0 6px 0;
+}
+
+.menu-title p {
+  margin: 0;
+}
+
 .menu-tools {
   display: flex;
   align-items: center;
   gap: 8px;
-  min-width: 340px;
+  flex: 0 0 auto;
+  min-width: 420px;
 }
 
 .menu-tools input {
-  flex: 1 1 auto;
+  width: 260px;
   min-width: 0;
 }
 
-.menu-tools .btn {
+.menu-tools button {
   flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .table-wrap {
@@ -325,8 +334,8 @@ code {
   }
 
   .hero,
-  .section-head,
-  .hero-right {
+  .hero-right,
+  .menu-top {
     flex-direction: column;
     align-items: stretch;
   }
@@ -350,7 +359,8 @@ code {
     align-items: stretch;
   }
 
-  .menu-tools .btn {
+  .menu-tools input,
+  .menu-tools button {
     width: 100%;
   }
 
