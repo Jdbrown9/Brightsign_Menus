@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fountain Soda feed</title>
+    <description>BrightSign menu text feed for Fountain Soda</description>
+    <link>feeds/soda.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Fountain Soda $4.00</title>
+      <description>Fountain Soda - $4.00</description>
+      <link>feeds/soda.xml</link>
+      <guid isPermaLink="false">soda-seed</guid>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

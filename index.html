@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catering Menu Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <h1>Catering Menu Manager</h1>
+        <p>Update menu item names and prices, then publish or export BrightSign RSS feeds.</p>
+      </div>
+      <div class="hero-actions">
+        <button id="addItemBtn" class="btn">Add Menu Item</button>
+        <button id="publishBtn" class="btn btn-primary">Publish Changes</button>
+        <button id="exportBtn" class="btn">Download Update Package</button>
+      </div>
+    </header>
+
+    <section class="card quick-help">
+      <h2>How to use this page</h2>
+      <ol>
+        <li>Edit the item name or price.</li>
+        <li>Use <strong>Copy Feed URL</strong> if BrightSign needs the RSS link.</li>
+        <li>Click <strong>Publish Changes</strong>.</li>
+      </ol>
+      <p class="muted">If publishing is not set up on this computer yet, use <strong>Download Update Package</strong> and give the ZIP file to the person who manages GitHub.</p>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h2>Menu Items</h2>
+          <p class="muted">Each menu item has its own RSS feed for BrightSign.</p>
+        </div>
+        <div class="search-wrap">
+          <input id="searchInput" type="text" placeholder="Search menu items..." />
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th>Feed URL</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="menuTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <details class="card admin-card">
+      <summary>Admin setup</summary>
+      <div class="admin-grid">
+        <label>
+          GitHub owner
+          <input id="githubOwner" type="text" placeholder="your-username-or-org" />
+        </label>
+        <label>
+          Repository name
+          <input id="githubRepo" type="text" placeholder="your-repo-name" />
+        </label>
+        <label>
+          Branch
+          <input id="githubBranch" type="text" value="main" />
+        </label>
+        <label>
+          Site base URL
+          <input id="siteBaseUrl" type="text" placeholder="https://yourname.github.io/repo-name" />
+        </label>
+        <label class="full">
+          GitHub token
+          <input id="githubToken" type="password" placeholder="Admin only. Stored only in this browser session." />
+          <span class="muted small">Optional for one-click publishing. Leave blank if staff will only export ZIP packages.</span>
+        </label>
+      </div>
+    </details>
+
+    <section id="statusBox" class="status card" aria-live="polite">Ready.</section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-04-01T00:00:00.000Z",
+  "items": [
+    {
+      "id": "hot-dog",
+      "name": "Hot Dog",
+      "price": "$5.00",
+      "feedPath": "feeds/hot-dog.xml"
+    },
+    {
+      "id": "pretzel",
+      "name": "Soft Pretzel",
+      "price": "$6.00",
+      "feedPath": "feeds/pretzel.xml"
+    },
+    {
+      "id": "soda",
+      "name": "Fountain Soda",
+      "price": "$4.00",
+      "feedPath": "feeds/soda.xml"
+    }
+  ]
+}

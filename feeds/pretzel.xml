@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Soft Pretzel feed</title>
+    <description>BrightSign menu text feed for Soft Pretzel</description>
+    <link>feeds/pretzel.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Soft Pretzel $6.00</title>
+      <description>Soft Pretzel - $6.00</description>
+      <link>feeds/pretzel.xml</link>
+      <guid isPermaLink="false">pretzel-seed</guid>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
