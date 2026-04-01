@@ -259,7 +259,7 @@ function xmlEscape(value) {
 }
 
 function buildFeedXml(item, unavailable = false) {
-  const title = unavailable ? `${item.name}` : `${item.name}`;
+  const title = `${item.name}`;
   const desc = unavailable ? `Unavailable` : `${item.price}`;
   const pubDate = new Date().toUTCString();
   const link = getFeedUrl(item.id) || `feeds/${item.id}.xml`;
