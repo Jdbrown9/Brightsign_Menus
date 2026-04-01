@@ -3,14 +3,14 @@
   <channel>
     <title>Soft Pretzel feed</title>
     <description>BrightSign menu text feed for Soft Pretzel</description>
-    <link>feeds/pretzel.xml</link>
-    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 GMT</lastBuildDate>
+    <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/pretzel.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 16:10:06 GMT</lastBuildDate>
     <item>
       <title>Soft Pretzel $6.00</title>
       <description>Soft Pretzel - $6.00</description>
-      <link>feeds/pretzel.xml</link>
-      <guid isPermaLink="false">pretzel-seed</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
+      <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/pretzel.xml</link>
+      <guid isPermaLink="false">pretzel-1775059806244</guid>
+      <pubDate>Wed, 01 Apr 2026 16:10:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
