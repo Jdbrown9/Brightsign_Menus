@@ -3,14 +3,14 @@
   <channel>
     <title>New Item feed</title>
     <description>BrightSign menu text feed for New Item</description>
-    <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/new-item-3.xml</link>
-    <lastBuildDate>Wed, 01 Apr 2026 16:10:07 GMT</lastBuildDate>
+    <link>https://jdbrown9.github.io/Brightsign_Menus/feeds/new-item-3.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 16:25:01 GMT</lastBuildDate>
     <item>
-      <title>New Item unavailable</title>
-      <description>New Item is currently unavailable</description>
-      <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/new-item-3.xml</link>
-      <guid isPermaLink="false">new-item-3-1775059807722</guid>
-      <pubDate>Wed, 01 Apr 2026 16:10:07 GMT</pubDate>
+      <title>New Item</title>
+      <description>Unavailable</description>
+      <link>https://jdbrown9.github.io/Brightsign_Menus/feeds/new-item-3.xml</link>
+      <guid isPermaLink="false">new-item-3-1775060701784</guid>
+      <pubDate>Wed, 01 Apr 2026 16:25:01 GMT</pubDate>
     </item>
   </channel>
 </rss>
