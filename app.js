@@ -35,7 +35,7 @@ function defaultState() {
       githubOwner: "",
       githubRepo: "",
       githubBranch: "main",
-      siteBaseUrl: "",
+      siteBaseUrl: "https://jdbrown9.github.io/Brightsign_Menus",
       githubToken: ""
     }
   };
