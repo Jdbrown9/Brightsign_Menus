@@ -3,14 +3,14 @@
   <channel>
     <title>Fountain Soda feed</title>
     <description>BrightSign menu text feed for Fountain Soda</description>
-    <link>feeds/soda.xml</link>
-    <lastBuildDate>Wed, 01 Apr 2026 12:00:00 GMT</lastBuildDate>
+    <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/soda.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 16:10:06 GMT</lastBuildDate>
     <item>
       <title>Fountain Soda $4.00</title>
       <description>Fountain Soda - $4.00</description>
-      <link>feeds/soda.xml</link>
-      <guid isPermaLink="false">soda-seed</guid>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 GMT</pubDate>
+      <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/soda.xml</link>
+      <guid isPermaLink="false">soda-1775059806974</guid>
+      <pubDate>Wed, 01 Apr 2026 16:10:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
