@@ -1,31 +1,28 @@
 # ACWMC Concession Menu Pricing
 
-This package adds:
+This version removes login and adds preset uploads.
 
-- a login page
-- a user management page
-- role-based access for staff and admins
-- logo support through `logo.png`
-- updated title: `ACWMC Concession Menu Pricing`
-- menu editor with per-item RSS feeds
-- price-only RSS descriptions for BrightSign
-- feed deletion on publish when items are removed
+## New preset feature
+You can upload a file to replace all current menu items for a specific event.
 
-## Important note
+Supported file types:
+- .json
+- .csv
+- .txt
 
-This project runs on static hosting such as GitHub Pages. That means the login system is a lightweight browser-based gate and not a full secure backend authentication system.
+## Preset examples
 
-It is fine for basic staff workflow convenience, but it should not be treated like enterprise-grade security.
+### CSV or TXT
+Hot Dog,$5.00
+Fountain Soda,$4.00
+Nachos,$7.50
 
-## Included pages
+### JSON
+{
+  "items": [
+    { "name": "Hot Dog", "price": "$5.00" },
+    { "name": "Fountain Soda", "price": "$4.00" }
+  ]
+}
 
-- `login.html`
-- `index.html`
-- `users.html`
-
-## Default admin login
-
-- Username: `admin`
-- Password: `ChangeMe123!`
-
-Change that immediately after first login.
+Uploading a preset replaces the current items in the editor. When you publish, old feed files are deleted and new ones are created.
