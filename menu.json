@@ -1,23 +1,305 @@
 {
-  "generatedAt": "2026-04-01T00:00:00.000Z",
+  "generatedAt": "2026-04-01T18:09:30.815Z",
   "items": [
     {
-      "id": "hot-dog",
-      "name": "Hot Dog",
+      "id": "stadium-smash-burger",
+      "name": "Stadium Smash Burger",
+      "price": "$9.50",
+      "feedPath": "feeds/stadium-smash-burger.xml"
+    },
+    {
+      "id": "loaded-chili-cheese-dog",
+      "name": "Loaded Chili Cheese Dog",
+      "price": "$8.75",
+      "feedPath": "feeds/loaded-chili-cheese-dog.xml"
+    },
+    {
+      "id": "garlic-parm-pretzel-bites",
+      "name": "Garlic Parm Pretzel Bites",
+      "price": "$6.25",
+      "feedPath": "feeds/garlic-parm-pretzel-bites.xml"
+    },
+    {
+      "id": "firecracker-chicken-tenders",
+      "name": "Firecracker Chicken Tenders",
+      "price": "$10.00",
+      "feedPath": "feeds/firecracker-chicken-tenders.xml"
+    },
+    {
+      "id": "buffalo-ranch-wrap",
+      "name": "Buffalo Ranch Wrap",
+      "price": "$9.25",
+      "feedPath": "feeds/buffalo-ranch-wrap.xml"
+    },
+    {
+      "id": "pulled-pork-mac-bowl",
+      "name": "Pulled Pork Mac Bowl",
+      "price": "$11.00",
+      "feedPath": "feeds/pulled-pork-mac-bowl.xml"
+    },
+    {
+      "id": "bbq-brisket-sandwich",
+      "name": "BBQ Brisket Sandwich",
+      "price": "$12.50",
+      "feedPath": "feeds/bbq-brisket-sandwich.xml"
+    },
+    {
+      "id": "classic-ballpark-hot-dog",
+      "name": "Classic Ballpark Hot Dog",
       "price": "$5.00",
-      "feedPath": "feeds/hot-dog.xml"
+      "feedPath": "feeds/classic-ballpark-hot-dog.xml"
     },
     {
-      "id": "pretzel",
-      "name": "Soft Pretzel",
+      "id": "jumbo-nacho-supreme",
+      "name": "Jumbo Nacho Supreme",
+      "price": "$9.75",
+      "feedPath": "feeds/jumbo-nacho-supreme.xml"
+    },
+    {
+      "id": "walking-taco-deluxe",
+      "name": "Walking Taco Deluxe",
+      "price": "$8.50",
+      "feedPath": "feeds/walking-taco-deluxe.xml"
+    },
+    {
+      "id": "spicy-sausage-hoagie",
+      "name": "Spicy Sausage Hoagie",
+      "price": "$9.00",
+      "feedPath": "feeds/spicy-sausage-hoagie.xml"
+    },
+    {
+      "id": "street-corn-cup",
+      "name": "Street Corn Cup",
+      "price": "$5.50",
+      "feedPath": "feeds/street-corn-cup.xml"
+    },
+    {
+      "id": "loaded-tater-tot-basket",
+      "name": "Loaded Tater Tot Basket",
+      "price": "$7.75",
+      "feedPath": "feeds/loaded-tater-tot-basket.xml"
+    },
+    {
+      "id": "cheddar-bacon-fries",
+      "name": "Cheddar Bacon Fries",
+      "price": "$7.25",
+      "feedPath": "feeds/cheddar-bacon-fries.xml"
+    },
+    {
+      "id": "sweet-heat-wings-8pc",
+      "name": "Sweet Heat Wings (8pc)",
+      "price": "$11.50",
+      "feedPath": "feeds/sweet-heat-wings-8pc.xml"
+    },
+    {
+      "id": "teriyaki-chicken-rice-bowl",
+      "name": "Teriyaki Chicken Rice Bowl",
+      "price": "$10.25",
+      "feedPath": "feeds/teriyaki-chicken-rice-bowl.xml"
+    },
+    {
+      "id": "philly-cheesesteak",
+      "name": "Philly Cheesesteak",
+      "price": "$11.75",
+      "feedPath": "feeds/philly-cheesesteak.xml"
+    },
+    {
+      "id": "mozzarella-stick-stack",
+      "name": "Mozzarella Stick Stack",
+      "price": "$6.75",
+      "feedPath": "feeds/mozzarella-stick-stack.xml"
+    },
+    {
+      "id": "pizza-by-the-slice",
+      "name": "Pizza by the Slice",
+      "price": "$5.50",
+      "feedPath": "feeds/pizza-by-the-slice.xml"
+    },
+    {
+      "id": "flatbread-pepperoni",
+      "name": "Flatbread Pepperoni",
+      "price": "$8.25",
+      "feedPath": "feeds/flatbread-pepperoni.xml"
+    },
+    {
+      "id": "veggie-power-wrap",
+      "name": "Veggie Power Wrap",
+      "price": "$8.50",
+      "feedPath": "feeds/veggie-power-wrap.xml"
+    },
+    {
+      "id": "crispy-fish-sandwich",
+      "name": "Crispy Fish Sandwich",
+      "price": "$9.75",
+      "feedPath": "feeds/crispy-fish-sandwich.xml"
+    },
+    {
+      "id": "cajun-shrimp-basket",
+      "name": "Cajun Shrimp Basket",
+      "price": "$12.00",
+      "feedPath": "feeds/cajun-shrimp-basket.xml"
+    },
+    {
+      "id": "chicken-caesar-salad",
+      "name": "Chicken Caesar Salad",
+      "price": "$8.75",
+      "feedPath": "feeds/chicken-caesar-salad.xml"
+    },
+    {
+      "id": "southwest-taco-salad",
+      "name": "Southwest Taco Salad",
+      "price": "$9.25",
+      "feedPath": "feeds/southwest-taco-salad.xml"
+    },
+    {
+      "id": "grilled-chicken-club",
+      "name": "Grilled Chicken Club",
+      "price": "$10.50",
+      "feedPath": "feeds/grilled-chicken-club.xml"
+    },
+    {
+      "id": "turkey-avocado-blt",
+      "name": "Turkey Avocado BLT",
+      "price": "$10.75",
+      "feedPath": "feeds/turkey-avocado-blt.xml"
+    },
+    {
+      "id": "steakhouse-loaded-potato",
+      "name": "Steakhouse Loaded Potato",
+      "price": "$9.50",
+      "feedPath": "feeds/steakhouse-loaded-potato.xml"
+    },
+    {
+      "id": "breakfast-burrito",
+      "name": "Breakfast Burrito",
+      "price": "$7.25",
+      "feedPath": "feeds/breakfast-burrito.xml"
+    },
+    {
+      "id": "sausage-egg-and-cheese-biscuit",
+      "name": "Sausage Egg & Cheese Biscuit",
+      "price": "$5.75",
+      "feedPath": "feeds/sausage-egg-and-cheese-biscuit.xml"
+    },
+    {
+      "id": "mini-pancake-stack",
+      "name": "Mini Pancake Stack",
       "price": "$6.00",
-      "feedPath": "feeds/pretzel.xml"
+      "feedPath": "feeds/mini-pancake-stack.xml"
     },
     {
-      "id": "soda",
+      "id": "cold-brew-coffee",
+      "name": "Cold Brew Coffee",
+      "price": "$4.50",
+      "feedPath": "feeds/cold-brew-coffee.xml"
+    },
+    {
+      "id": "frozen-lemonade",
+      "name": "Frozen Lemonade",
+      "price": "$5.25",
+      "feedPath": "feeds/frozen-lemonade.xml"
+    },
+    {
+      "id": "strawberry-smoothie",
+      "name": "Strawberry Smoothie",
+      "price": "$6.50",
+      "feedPath": "feeds/strawberry-smoothie.xml"
+    },
+    {
+      "id": "chocolate-milkshake",
+      "name": "Chocolate Milkshake",
+      "price": "$6.75",
+      "feedPath": "feeds/chocolate-milkshake.xml"
+    },
+    {
+      "id": "vanilla-soft-serve",
+      "name": "Vanilla Soft Serve",
+      "price": "$4.25",
+      "feedPath": "feeds/vanilla-soft-serve.xml"
+    },
+    {
+      "id": "caramel-churros",
+      "name": "Caramel Churros",
+      "price": "$5.00",
+      "feedPath": "feeds/caramel-churros.xml"
+    },
+    {
+      "id": "funnel-cake-fries",
+      "name": "Funnel Cake Fries",
+      "price": "$6.50",
+      "feedPath": "feeds/funnel-cake-fries.xml"
+    },
+    {
+      "id": "cinnamon-sugar-pretzel",
+      "name": "Cinnamon Sugar Pretzel",
+      "price": "$5.75",
+      "feedPath": "feeds/cinnamon-sugar-pretzel.xml"
+    },
+    {
+      "id": "kettle-corn-bag",
+      "name": "Kettle Corn Bag",
+      "price": "$4.00",
+      "feedPath": "feeds/kettle-corn-bag.xml"
+    },
+    {
+      "id": "popcorn-bucket",
+      "name": "Popcorn Bucket",
+      "price": "$7.00",
+      "feedPath": "feeds/popcorn-bucket.xml"
+    },
+    {
+      "id": "bottled-water",
+      "name": "Bottled Water",
+      "price": "$3.50",
+      "feedPath": "feeds/bottled-water.xml"
+    },
+    {
+      "id": "fountain-soda",
       "name": "Fountain Soda",
       "price": "$4.00",
-      "feedPath": "feeds/soda.xml"
+      "feedPath": "feeds/fountain-soda.xml"
+    },
+    {
+      "id": "energy-drink",
+      "name": "Energy Drink",
+      "price": "$5.25",
+      "feedPath": "feeds/energy-drink.xml"
+    },
+    {
+      "id": "domestic-draft-beer",
+      "name": "Domestic Draft Beer",
+      "price": "$6.50",
+      "feedPath": "feeds/domestic-draft-beer.xml"
+    },
+    {
+      "id": "craft-ipa-draft",
+      "name": "Craft IPA Draft",
+      "price": "$7.75",
+      "feedPath": "feeds/craft-ipa-draft.xml"
+    },
+    {
+      "id": "hard-seltzer",
+      "name": "Hard Seltzer",
+      "price": "$6.75",
+      "feedPath": "feeds/hard-seltzer.xml"
+    },
+    {
+      "id": "house-margarita",
+      "name": "House Margarita",
+      "price": "$8.50",
+      "feedPath": "feeds/house-margarita.xml"
+    },
+    {
+      "id": "frozen-daiquiri",
+      "name": "Frozen Daiquiri",
+      "price": "$8.75",
+      "feedPath": "feeds/frozen-daiquiri.xml"
+    },
+    {
+      "id": "kids-combo-meal",
+      "name": "Kids Combo Meal",
+      "price": "$6.00",
+      "feedPath": "feeds/kids-combo-meal.xml"
     }
   ]
 }
