@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>New Item feed</title>
+    <description>BrightSign menu text feed for New Item</description>
+    <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/new-item-3.xml</link>
+    <lastBuildDate>Wed, 01 Apr 2026 16:10:07 GMT</lastBuildDate>
+    <item>
+      <title>New Item unavailable</title>
+      <description>New Item is currently unavailable</description>
+      <link>https://github.com/Jdbrown9/Brightsign_Menus/feeds/new-item-3.xml</link>
+      <guid isPermaLink="false">new-item-3-1775059807722</guid>
+      <pubDate>Wed, 01 Apr 2026 16:10:07 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
