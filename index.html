@@ -3,20 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catering Menu Manager</title>
+  <title>ACWMC Concession Menu Pricing</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="app-body">
   <div class="app">
     <header class="hero">
       <div>
-        <h1>Catering Menu Manager</h1>
+        <h1>ACWMC Concession Menu Pricing</h1>
         <p>Update menu item names and prices, then publish or export BrightSign RSS feeds.</p>
       </div>
-      <div class="hero-actions">
-        <button id="addItemBtn" class="btn">Add Menu Item</button>
-        <button id="publishBtn" class="btn btn-primary">Publish Changes</button>
-        <button id="exportBtn" class="btn">Download Update Package</button>
+      <div class="hero-right">
+        <img src="logo.png" alt="Company logo" class="company-logo" />
+        <div class="hero-actions">
+          <button id="addItemBtn" class="btn">Add Menu Item</button>
+          <button id="publishBtn" class="btn btn-primary">Publish Changes</button>
+          <button id="exportBtn" class="btn">Download Update Package</button>
+          <button id="logoutBtn" class="btn">Log Out</button>
+        </div>
       </div>
     </header>
 
@@ -34,7 +38,7 @@
       <div class="section-head">
         <div>
           <h2>Menu Items</h2>
-          <p class="muted">Each menu item has its own public RSS feed URL for BrightSign. Use your GitHub Pages URL, not a github.com repo link.</p>
+          <p class="muted">Each menu item has its own public RSS feed URL for BrightSign.</p>
         </div>
         <div class="search-wrap">
           <input id="searchInput" type="text" placeholder="Search menu items..." />
@@ -56,36 +60,22 @@
       </div>
     </section>
 
-    <details class="card admin-card">
+    <details class="card admin-card" id="adminSetupCard">
       <summary>Admin setup</summary>
       <div class="admin-grid">
-        <label>
-          GitHub owner
-          <input id="githubOwner" type="text" placeholder="your-username-or-org" />
-        </label>
-        <label>
-          Repository name
-          <input id="githubRepo" type="text" placeholder="your-repo-name" />
-        </label>
-        <label>
-          Branch
-          <input id="githubBranch" type="text" value="main" />
-        </label>
-        <label>
-          Site base URL
-          <input id="siteBaseUrl" type="text" placeholder="https://USERNAME.github.io/REPO-NAME" />
-        </label>
-        <label class="full">
-          GitHub token
-          <input id="githubToken" type="password" placeholder="Admin only. Stored only in this browser session." />
-          <span class="muted small">Optional for one-click publishing. Leave blank if staff will only export ZIP packages.</span>
-        </label>
+        <label>GitHub owner<input id="githubOwner" type="text" placeholder="your-username-or-org" /></label>
+        <label>Repository name<input id="githubRepo" type="text" placeholder="your-repo-name" /></label>
+        <label>Branch<input id="githubBranch" type="text" value="main" /></label>
+        <label>Site base URL<input id="siteBaseUrl" type="text" placeholder="https://USERNAME.github.io/REPO-NAME" /></label>
+        <label class="full">GitHub token<input id="githubToken" type="password" placeholder="Admin only. Stored only in this browser session." /><span class="muted small">Optional for one-click publishing. Leave blank if staff will only export ZIP packages.</span></label>
       </div>
+      <div class="admin-links"><a href="users.html">Manage Users</a></div>
     </details>
 
     <section id="statusBox" class="status card" aria-live="polite">Ready.</section>
   </div>
 
+  <script src="auth.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

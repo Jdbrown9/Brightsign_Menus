@@ -1,52 +1,31 @@
-# Catering Menu Manager for BrightSign
+# ACWMC Concession Menu Pricing
 
-This version is designed for nontechnical staff.
+This package adds:
 
-## Staff workflow
-
-1. Open the website
-2. Edit item names or prices
-3. Click **Publish Changes**
-4. Done
-
-If publishing is not configured on that computer, staff can click **Download Update Package** and send the file to the admin.
-
-## What this project includes
-
-- simple staff-facing menu editor
-- one RSS feed per item
-- copy button for each feed URL
-- hidden admin setup area
-- optional one-click GitHub publishing
-- fallback export package
+- a login page
+- a user management page
+- role-based access for staff and admins
+- logo support through `logo.png`
+- updated title: `ACWMC Concession Menu Pricing`
+- menu editor with per-item RSS feeds
+- price-only RSS descriptions for BrightSign
+- feed deletion on publish when items are removed
 
 ## Important note
 
-GitHub Pages is static hosting, so it cannot update public feed files by itself. This project solves that in one of two ways:
+This project runs on static hosting such as GitHub Pages. That means the login system is a lightweight browser-based gate and not a full secure backend authentication system.
 
-### Option A
-Admin sets up GitHub token once on a dedicated computer. Staff then just click **Publish Changes**.
+It is fine for basic staff workflow convenience, but it should not be treated like enterprise-grade security.
 
-### Option B
-Staff click **Download Update Package**, and an admin uploads the generated file contents to GitHub using a helper workflow.
+## Included pages
 
-## Recommended real-world use
-
-If this will live on one office computer or one tablet browser, have an admin fill in:
-
-- GitHub owner
-- repo name
-- branch
-- site base URL
-- GitHub token
-
-After that, staff only need the top section of the page.
-
-## Files
-
+- `login.html`
 - `index.html`
-- `styles.css`
-- `app.js`
-- `menu.json`
-- `feeds/*.xml`
-- `.nojekyll`
+- `users.html`
+
+## Default admin login
+
+- Username: `admin`
+- Password: `ChangeMe123!`
+
+Change that immediately after first login.
