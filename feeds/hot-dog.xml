@@ -4,13 +4,13 @@
     <title>Hot Dog feed</title>
     <description>BrightSign menu text feed for Hot Dog</description>
     <link>https://jdbrown9.github.io/Brightsign_Menus/feeds/hot-dog.xml</link>
-    <lastBuildDate>Wed, 01 Apr 2026 16:37:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 16:39:38 GMT</lastBuildDate>
     <item>
       <title>Hot Dog</title>
-      <description>$5.65</description>
+      <description>$100</description>
       <link>https://jdbrown9.github.io/Brightsign_Menus/feeds/hot-dog.xml</link>
-      <guid isPermaLink="false">hot-dog-1775061456121</guid>
-      <pubDate>Wed, 01 Apr 2026 16:37:36 GMT</pubDate>
+      <guid isPermaLink="false">hot-dog-1775061578970</guid>
+      <pubDate>Wed, 01 Apr 2026 16:39:38 GMT</pubDate>
     </item>
   </channel>
 </rss>
